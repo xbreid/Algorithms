@@ -1,3 +1,1 @@
-import './radix-tree.ts';
-
-console.log('init');
+import './radix-tree';

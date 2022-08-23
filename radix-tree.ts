@@ -1,3 +1,5 @@
+// Basic RadixTrie
+
 class RadixNode {
   value: string;
   children: Array<RadixNode>;
