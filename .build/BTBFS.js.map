@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../BTBFS.ts"],
+  "sourcesContent": ["export default function bfs(head: BinaryNode<number>, needle: number): boolean {\n  const q: (BinaryNode<number> | null)[] = [head];\n\n  while (q.length) {\n    const curr = q.shift() as BinaryNode<number> | null | undefined;\n\n    if (!curr) continue;\n\n    if (curr.value === needle) {\n      return true;\n    }\n\n\n    q.push(curr.left);\n    q.push(curr.right);\n  }\n\n  return false;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,aAAa,MAA0B,QAAyB;AAC7E,QAAM,IAAmC,CAAC;AAE1C,SAAO,EAAE,QAAQ;AACf,UAAM,OAAO,EAAE;AAEf,QAAI,CAAC;AAAM;AAEX,QAAI,KAAK,UAAU,QAAQ;AACzB,aAAO;AAAA;AAIT,MAAE,KAAK,KAAK;AACZ,MAAE,KAAK,KAAK;AAAA;AAGd,SAAO;AAAA;",
+  "names": []
+}

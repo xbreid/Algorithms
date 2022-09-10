@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../Map.ts"],
+  "sourcesContent": ["export default class Map<T extends (string | number), V> {\n    \n\n    \n\n    constructor() {\n    }\n\n    get(key: T): V | undefined {\n\n}\n    set(key: T, value: V): void {\n\n}\n    delete(key: T): V | undefined {\n\n}\n    size(): number {\n\n}\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,UAAyD;AAAA,EAKrD,cAAc;AAAA;AAAA,EAGd,IAAI,KAAuB;AAAA;AAAA,EAG3B,IAAI,KAAQ,OAAgB;AAAA;AAAA,EAG5B,OAAO,KAAuB;AAAA;AAAA,EAG9B,OAAe;AAAA;AAAA;",
+  "names": []
+}

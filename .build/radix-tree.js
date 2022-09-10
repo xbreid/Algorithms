@@ -1,6 +1,4 @@
 class RadixNode {
-  value;
-  children;
   constructor(value, children = []) {
     this.value = value;
     this.children = children;
@@ -10,7 +8,6 @@ class RadixNode {
   }
 }
 class RadixTree {
-  root;
   constructor(children = []) {
     this.root = new RadixNode("", children);
   }

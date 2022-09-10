@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../CompareBinaryTrees.ts"],
+  "sourcesContent": ["export default function compare(a: BinaryNode<number> | null, b: BinaryNode<number> | null): boolean {\n\n  if (a === null && b === null) {\n    return true;\n  }\n\n  if (a === null || b === null) {\n    return false;\n  }\n\n  if (a.value !== b.value) {\n    return false;\n  }\n\n  return compare(a.left, b.left) && compare(a.right, b.right);\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,iBAAiB,GAA8B,GAAuC;AAEnG,MAAI,MAAM,QAAQ,MAAM,MAAM;AAC5B,WAAO;AAAA;AAGT,MAAI,MAAM,QAAQ,MAAM,MAAM;AAC5B,WAAO;AAAA;AAGT,MAAI,EAAE,UAAU,EAAE,OAAO;AACvB,WAAO;AAAA;AAGT,SAAO,QAAQ,EAAE,MAAM,EAAE,SAAS,QAAQ,EAAE,OAAO,EAAE;AAAA;",
+  "names": []
+}

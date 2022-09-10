@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../DFSOnBST.ts"],
+  "sourcesContent": ["export default function dfs(head: BinaryNode<number>, needle: number): boolean {\n\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,aAAa,MAA0B,QAAyB;AAAA;",
+  "names": []
+}

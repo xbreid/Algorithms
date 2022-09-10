@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../LRU.ts"],
+  "sourcesContent": ["export default class LRU<K, V> {\n    private length: number;\n\n    \n\n    constructor() {\n    }\n\n    update(key: K, value: V): void {\n\n}\n    get(key: K): V | undefined {\n\n}\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,UAA+B;AAAA,EAK3B,cAAc;AAAA;AAAA,EAGd,OAAO,KAAQ,OAAgB;AAAA;AAAA,EAG/B,IAAI,KAAuB;AAAA;AAAA;",
+  "names": []
+}

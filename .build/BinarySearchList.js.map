@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../BinarySearchList.ts"],
+  "sourcesContent": ["export default function bs_list(haystack: number[], needle: number): boolean {\n  let lo = 0;\n  let hi = haystack.length;\n\n  do {\n    const m = Math.floor(lo + (hi - lo) / 2);\n    const v = haystack[m];\n\n    if (v === needle) {\n      return true;\n    } else if (v > needle) {\n      hi = m;\n    } else {\n      lo = m + 1;\n    }\n  } while(lo < hi);\n\n  return false;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,iBAAiB,UAAoB,QAAyB;AAC3E,MAAI,KAAK;AACT,MAAI,KAAK,SAAS;AAElB,KAAG;AACD,UAAM,IAAI,KAAK,MAAM,KAAM,MAAK,MAAM;AACtC,UAAM,IAAI,SAAS;AAEnB,QAAI,MAAM,QAAQ;AAChB,aAAO;AAAA,eACE,IAAI,QAAQ;AACrB,WAAK;AAAA,WACA;AACL,WAAK,IAAI;AAAA;AAAA,WAEL,KAAK;AAEb,SAAO;AAAA;",
+  "names": []
+}

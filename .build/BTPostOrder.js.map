@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../BTPostOrder.ts"],
+  "sourcesContent": ["function walk(curr: BinaryNode<number> | null, path: number[]): number[] {\n  if (!curr) {\n    return path;\n  }\n\n  walk(curr.left, path);\n  walk(curr.right, path);\n\n  path.push(curr.value);\n\n  return path;\n}\n\n\nexport default function post_order_search(head: BinaryNode<number>): number[] {\n  return walk(head, []);\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,cAAc,MAAiC,MAA0B;AACvE,MAAI,CAAC,MAAM;AACT,WAAO;AAAA;AAGT,OAAK,KAAK,MAAM;AAChB,OAAK,KAAK,OAAO;AAEjB,OAAK,KAAK,KAAK;AAEf,SAAO;AAAA;AAIM,2BAA2B,MAAoC;AAC5E,SAAO,KAAK,MAAM;AAAA;",
+  "names": []
+}

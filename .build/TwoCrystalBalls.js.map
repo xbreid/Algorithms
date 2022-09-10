@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../TwoCrystalBalls.ts"],
+  "sourcesContent": ["export default function two_crystal_balls(breaks: boolean[]): number {\n  const jmpAmt = Math.floor(Math.sqrt(breaks.length));\n\n  let i = jmpAmt;\n  for (; i < breaks.length; i += jmpAmt) {\n    if (breaks[i]) {\n      break;\n    }\n  }\n\n  i -= jmpAmt;\n\n  for (let j = 0; j < jmpAmt && i < breaks.length; ++j, ++i) {\n    if (breaks[i]) {\n      return i;\n    }\n  }\n\n  return -1;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,2BAA2B,QAA2B;AACnE,QAAM,SAAS,KAAK,MAAM,KAAK,KAAK,OAAO;AAE3C,MAAI,IAAI;AACR,SAAO,IAAI,OAAO,QAAQ,KAAK,QAAQ;AACrC,QAAI,OAAO,IAAI;AACb;AAAA;AAAA;AAIJ,OAAK;AAEL,WAAS,IAAI,GAAG,IAAI,UAAU,IAAI,OAAO,QAAQ,EAAE,GAAG,EAAE,GAAG;AACzD,QAAI,OAAO,IAAI;AACb,aAAO;AAAA;AAAA;AAIX,SAAO;AAAA;",
+  "names": []
+}

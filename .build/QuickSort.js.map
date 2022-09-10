@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../QuickSort.ts"],
+  "sourcesContent": ["function qs(arr: number[], lo: number, hi: number): void {\n  if (lo >= hi) {\n    return;\n  }\n\n  const pivotIdx = partition(arr, lo, hi);\n\n  qs(arr, lo, pivotIdx - 1);\n  qs(arr,pivotIdx + 1, hi);\n}\n\nfunction partition(arr: number[], lo: number, hi: number): number {\n  const pivot = arr[hi];\n\n  let idx = lo - 1;\n\n  for (let i = lo; i < hi; ++i) {\n    if (arr[i] <= pivot) {\n      idx++;\n      const tmp = arr[i];\n      arr[i] = arr[idx];\n      arr[idx] = tmp;\n    }\n  }\n\n  idx++;\n  arr[hi] = arr[idx];\n  arr[idx] = pivot;\n\n  return idx;\n}\n\nexport default function quick_sort(arr: number[]): void {\n  qs(arr, 0, arr.length -1);\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,YAAY,KAAe,IAAY,IAAkB;AACvD,MAAI,MAAM,IAAI;AACZ;AAAA;AAGF,QAAM,WAAW,UAAU,KAAK,IAAI;AAEpC,KAAG,KAAK,IAAI,WAAW;AACvB,KAAG,KAAI,WAAW,GAAG;AAAA;AAGvB,mBAAmB,KAAe,IAAY,IAAoB;AAChE,QAAM,QAAQ,IAAI;AAElB,MAAI,MAAM,KAAK;AAEf,WAAS,IAAI,IAAI,IAAI,IAAI,EAAE,GAAG;AAC5B,QAAI,IAAI,MAAM,OAAO;AACnB;AACA,YAAM,MAAM,IAAI;AAChB,UAAI,KAAK,IAAI;AACb,UAAI,OAAO;AAAA;AAAA;AAIf;AACA,MAAI,MAAM,IAAI;AACd,MAAI,OAAO;AAEX,SAAO;AAAA;AAGM,oBAAoB,KAAqB;AACtD,KAAG,KAAK,GAAG,IAAI,SAAQ;AAAA;",
+  "names": []
+}

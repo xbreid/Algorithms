@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../DFSGraphList.ts"],
+  "sourcesContent": ["export default function dfs(graph: WeightedAdjacencyList, source: number, needle: number): number[] | null {\n\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,aAAa,OAA8B,QAAgB,QAAiC;AAAA;",
+  "names": []
+}

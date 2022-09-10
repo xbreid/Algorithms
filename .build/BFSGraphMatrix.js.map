@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../BFSGraphMatrix.ts"],
+  "sourcesContent": ["export default function bfs(graph: WeightedAdjacencyMatrix, source: number, needle: number): number[] | null {\n\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,aAAa,OAAgC,QAAgB,QAAiC;AAAA;",
+  "names": []
+}

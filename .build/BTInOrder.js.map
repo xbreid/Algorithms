@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../BTInOrder.ts"],
+  "sourcesContent": ["function walk(curr: BinaryNode<number> | null, path: number[]): number[] {\n  if (!curr) {\n    return path;\n  }\n\n  walk(curr.left, path);\n  path.push(curr.value);\n  walk(curr.right, path);\n\n  return path;\n}\n\nexport default function in_order_search(head: BinaryNode<number>): number[] {\n  return walk(head, []);\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,cAAc,MAAiC,MAA0B;AACvE,MAAI,CAAC,MAAM;AACT,WAAO;AAAA;AAGT,OAAK,KAAK,MAAM;AAChB,OAAK,KAAK,KAAK;AACf,OAAK,KAAK,OAAO;AAEjB,SAAO;AAAA;AAGM,yBAAyB,MAAoC;AAC1E,SAAO,KAAK,MAAM;AAAA;",
+  "names": []
+}

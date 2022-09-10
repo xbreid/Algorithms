@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../BubbleSort.ts"],
+  "sourcesContent": ["export default function bubble_sort(arr: number[]): void {\n  for (let i = 0; i < arr.length; ++i) {\n    for (let j = 0; j < arr.length - 1 - i; ++j) {\n      if (arr[j] > arr[j + 1]) {\n        const tmp = arr[j];\n        arr[j] = arr[j + 1];\n        arr[j + 1] = tmp;\n      }\n    }\n  }\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAe,qBAAqB,KAAqB;AACvD,WAAS,IAAI,GAAG,IAAI,IAAI,QAAQ,EAAE,GAAG;AACnC,aAAS,IAAI,GAAG,IAAI,IAAI,SAAS,IAAI,GAAG,EAAE,GAAG;AAC3C,UAAI,IAAI,KAAK,IAAI,IAAI,IAAI;AACvB,cAAM,MAAM,IAAI;AAChB,YAAI,KAAK,IAAI,IAAI;AACjB,YAAI,IAAI,KAAK;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}

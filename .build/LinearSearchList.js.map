@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../LinearSearchList.ts"],
+  "sourcesContent": ["// O(n)\nexport default function linear_search(haystack: number[], needle: number): boolean {\n  for (let i = 0; i < haystack.length; ++i) {\n    if (haystack[i] === needle) {\n      return true;\n    }\n  }\n\n  return false;\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AACe,uBAAuB,UAAoB,QAAyB;AACjF,WAAS,IAAI,GAAG,IAAI,SAAS,QAAQ,EAAE,GAAG;AACxC,QAAI,SAAS,OAAO,QAAQ;AAC1B,aAAO;AAAA;AAAA;AAIX,SAAO;AAAA;",
+  "names": []
+}

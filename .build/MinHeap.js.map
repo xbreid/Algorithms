@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../MinHeap.ts"],
+  "sourcesContent": ["export default class MinHeap {\n    public length: number;\n\n    \n\n    constructor() {\n    }\n\n    insert(value: number): void {\n\n}\n    delete(): number {\n\n}\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,cAA6B;AAAA,EAKzB,cAAc;AAAA;AAAA,EAGd,OAAO,OAAqB;AAAA;AAAA,EAG5B,SAAiB;AAAA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../ArrayList.ts"],
+  "sourcesContent": ["export default class ArrayList<T> {\n    public length: number;\n\n    \n\n    constructor() {\n    }\n\n    prepend(item: T): void {\n\n}\n    insertAt(item: T, idx: number): void {\n\n}\n    append(item: T): void {\n\n}\n    remove(item: T): T | undefined {\n\n}\n    get(idx: number): T | undefined {\n\n}\n    removeAt(idx: number): T | undefined {\n\n}\n}"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,gBAAkC;AAAA,EAK9B,cAAc;AAAA;AAAA,EAGd,QAAQ,MAAe;AAAA;AAAA,EAGvB,SAAS,MAAS,KAAmB;AAAA;AAAA,EAGrC,OAAO,MAAe;AAAA;AAAA,EAGtB,OAAO,MAAwB;AAAA;AAAA,EAG/B,IAAI,KAA4B;AAAA;AAAA,EAGhC,SAAS,KAA4B;AAAA;AAAA;",
+  "names": []
+}
